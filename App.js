@@ -4,34 +4,24 @@
 //import './App.css'
 //import PasswordGenerator from "./component/PasswordGenerator"
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
-//import Dsp from './DspCollege/Dsp'
-//import AcademicDsp from './DspCollege/AcademicDsp'
-//import AdmissionDsp from './DspCollege/AdmissionDsp'
-//import NoticeDsp from './DspCollege/NoticeDsp'
-//import ContactDsp from './DspCollege/ContactDsp'
-//import StudyDsp from './DspCollege/Study'
-//import AboutDsp from './DspCollege/AboutDsp'
-//import MEdsp from './DspCollege/MEdsp'
+import Dsp from './DspCollege/Dsp'
+import AcademicDsp from './DspCollege/AcademicDsp'
+import AdmissionDsp from './DspCollege/AdmissionDsp'
+import NoticeDsp from './DspCollege/NoticeDsp'
+import ContactDsp from './DspCollege/ContactDsp'
+import StudyDsp from './DspCollege/Study'
+import AboutDsp from './DspCollege/AboutDsp'
+import MEdsp from './DspCollege/MEdsp'
 import React from "react"
-import Test from "./component/Test"
-import Test2 from "./component/Test2"
+
+
 
 function App() {
     return ( 
     <>
 
-        <BrowserRouter>
-       
-        <Routes>
-            <Route path='/' Component={<Test/>}/>
-            <Route path='./sumit.test' Component={<Test2/>}/>
 
-        </Routes>
-    
-        
-        </BrowserRouter>
-
-       {/*<BrowserRouter>
+       <BrowserRouter>
         <Routes>
             <Route path='/' element={<Dsp/>}/>
             <Route path='/About.dsp' element={<AboutDsp/>}/>
@@ -43,9 +33,9 @@ function App() {
             <Route path='/ME.dsp' element={<MEdsp/>}/>
 
             </Routes>
-        </BrowserRouter>*/}
+        </BrowserRouter>
        
-       {/*<Navbar img1={img1} img2={img2} img3={img3}/>*/}
+     
        </>
       
     )
